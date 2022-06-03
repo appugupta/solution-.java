@@ -55,18 +55,7 @@ public class Solution {
         }
     }
 
-    // Complete the sortedInsert function below.
-
-    /*
-     * For your reference:
-     *
-     * DoublyLinkedListNode {
-     *     int data;
-     *     DoublyLinkedListNode next;
-     *     DoublyLinkedListNode prev;
-     * }
-     *
-     */
+  
     static DoublyLinkedListNode sortedInsert(DoublyLinkedListNode head, int data) {
         DoublyLinkedListNode node = new DoublyLinkedListNode(data);
         if (head == null) {
