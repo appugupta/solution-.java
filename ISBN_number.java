@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;   
 import java.util.Scanner;  
   
-//create ISBNNumberExample class to check whether the given number is a valid ISBN or not  
 class ISBNNumberExample {   
     
      static boolean checkISBNNumber(long number)  
@@ -41,7 +40,6 @@ long n1, n2;
           
     try {  
               
-        //create BufferedReader class object to get input from user  
         InputStreamReader in = new InputStreamReader(System.in);  
         BufferedReader br = new BufferedReader(in);  
           
