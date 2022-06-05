@@ -55,18 +55,7 @@ public class Solution {
         }
     }
 
-    // Complete the reverse function below.
-
-    /*
-     * For your reference:
-     *
-     * DoublyLinkedListNode {
-     *     int data;
-     *     DoublyLinkedListNode next;
-     *     DoublyLinkedListNode prev;
-     * }
-     *
-     */
+   
      static DoublyLinkedListNode reverse(DoublyLinkedListNode curr) {
     DoublyLinkedListNode temp = curr.next;
     curr.next = curr.prev;
