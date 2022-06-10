@@ -23,7 +23,6 @@ class ISBNNumberExample {
                     sum = sum + t;  
             }  
   
-            // check whether the sum is divisible by 11 or not  
         
             if ((sum % 11) == 0) {  
                     return true;  
