@@ -11,7 +11,6 @@ int lcs( char[] X, char[] Y, int m, int n )
     return max(lcs(X, Y, m, n-1), lcs(X, Y, m-1, n));
 }
  
-/* Utility function to get max of 2 integers */
 int max(int a, int b)
 {
     return (a > b)? a : b;
