@@ -10,7 +10,6 @@ public class CountWordFile
         FileReader file = new FileReader("data.txt ");  
         BufferedReader br = new BufferedReader(file);  
   
-        //Gets each line till end of file is reached  
         while((line = br.readLine()) != null) {  
             //Splits each line into words  
             String words[] = line.split("");  
