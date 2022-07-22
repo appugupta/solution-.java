@@ -7,7 +7,6 @@ public class CountWordFile
         String line;  
         int count = 0;  
   
-        //Opens a file in read mode  
         FileReader file = new FileReader("data.txt ");  
         BufferedReader br = new BufferedReader(file);  
   
