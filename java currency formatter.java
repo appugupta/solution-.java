@@ -8,12 +8,9 @@ public class Solution {
         double payment = scanner.nextDouble();
         scanner.close();
         
-        // Write your code here.
-        /* Create custom Locale for India. 
-          I used the "IANA Language Subtag Registry" to find India's country code */
+       
         Locale indiaLocale = new Locale("en", "IN");
 
-        /* Create NumberFormats using Locales */
         NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);
         NumberFormat india  = NumberFormat.getCurrencyInstance(indiaLocale);
         NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
