@@ -11,7 +11,6 @@ public class Solution {
    in.close();
    //String s=???; Complete this line below
 
-   //Write your code here
    String s = Integer.toString(n);
 
    
