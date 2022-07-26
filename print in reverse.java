@@ -56,7 +56,6 @@ public class Solution {
      static void reversePrint(SinglyLinkedListNode head) {
                 if (head == null) return; 
   
-        // print list of head node 
         reversePrint(head.next); 
   
         // After everything else is printed 
