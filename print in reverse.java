@@ -58,7 +58,6 @@ public class Solution {
   
         reversePrint(head.next); 
   
-        // After everything else is printed 
         System.out.println(head.data+" "); 
 
     }
