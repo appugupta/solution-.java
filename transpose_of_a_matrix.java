@@ -4,7 +4,6 @@ public class Transpose {
         int row = 2, column = 3;
         int[][] matrix = { {2, 3, 4}, {5, 6, 4} };
 
-        // Display current matrix
         display(matrix);
 
         // Transpose the matrix
