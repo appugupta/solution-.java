@@ -3,10 +3,8 @@ public class DuplicateWord {
         String string = "Big black bug bit a big black dog on his big black nose";    
         int count;    
             
-        //Converts the string into lowercase    
         string = string.toLowerCase();    
             
-        //Split the string into words using built-in function    
         String words[] = string.split(" ");    
             
         System.out.println("Duplicate words in a given string : ");     
