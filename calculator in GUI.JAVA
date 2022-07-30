@@ -5,7 +5,6 @@ import java.awt.event.*;
 import javax.swing.*;
 public class program1 extends JFrame implements ActionListener
 {
-//Frame f;
 JFrame f=new JFrame();
 Label l1=new Label("enter 1st number");
 Label l2=new Label("enter 2nd number");
