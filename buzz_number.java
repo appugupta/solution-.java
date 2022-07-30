@@ -21,13 +21,10 @@ class BuzzNumberExample {
           
         System.out.println("Enter first number");  
           
-        //store user entered value into variable n1  
         n1 = sc.nextInt();  
           
-        //show custom message  
         System.out.println("Enter second number");  
           
-        //store user entered value into variable n2  
         n2 = sc.nextInt();  
           
         if (checkNumber(n1))   
