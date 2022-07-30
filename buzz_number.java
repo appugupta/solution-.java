@@ -7,22 +7,18 @@ class BuzzNumberExample {
     
     static boolean checkNumber(int number)   
     {   
-        // check whether the number ends with 7, is divisible by 7 or not  
         if(number % 10 == 7 || number % 7 == 0)  
             return true;    //returns true when the number is Buzz  
         else  
             return false;   //returns flase when the number is not Buzz  
     }   
     
-    // main() method start  
     public static void main(String args[])   
     {     
         int n1, n2;  
           
-        //create scanner class object to get input from user  
         Scanner sc=new Scanner(System.in);  
           
-        //show custom message  
         System.out.println("Enter first number");  
           
         //store user entered value into variable n1  
