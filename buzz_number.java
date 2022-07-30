@@ -8,9 +8,9 @@ class BuzzNumberExample {
     static boolean checkNumber(int number)   
     {   
         if(number % 10 == 7 || number % 7 == 0)  
-            return true;    //returns true when the number is Buzz  
+            return true;    
         else  
-            return false;   //returns flase when the number is not Buzz  
+            return false;  
     }   
     
     public static void main(String args[])   
