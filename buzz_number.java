@@ -3,10 +3,8 @@ import Java.util.*;
 import java.io.*;   
 import java.util.Scanner;  
   
-//create BuzzNumberExample class to check whether the given number is Buzz number or not  
 class BuzzNumberExample {   
     
-    // create checkNumber() method that returns true when it founds number Buzz   
     static boolean checkNumber(int number)   
     {   
         // check whether the number ends with 7, is divisible by 7 or not  
