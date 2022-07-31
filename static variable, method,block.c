@@ -2,7 +2,7 @@ package room1;
 
 public class room1 {
 	
-		   static int x = 10;
+		   static int x = 11;
 		   static int y;
 		   static void func(int z) {
 		      System.out.println("x = " + x);
